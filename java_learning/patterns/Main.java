@@ -1,8 +1,30 @@
 public class Main {
     public static void main(String[] args) {
-        Pattern30(5);
+        Pattern17(4);
     }
 
+
+    static void Pattern31(int n){
+
+    }
+
+    static void Pattern17(int n){
+        for (int row=1;row<=2*n;row++){
+//            int spaces = row>n ? row-n : n-row;
+
+            int totalCols = row > n  ? 2*n-row : row;
+            for(int space=0; space< n-totalCols; space++){
+                System.out.print(" ");
+            }
+            for(int col=totalCols;col>=1;col--){
+                System.out.print(col);
+            }
+            for (int col =2;col<=totalCols;col++){
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+    }
     static void Pattern30(int n){
         for(int row = 1;row<=n;row++){
             for (int space = 0 ; space< n-row; space++){
