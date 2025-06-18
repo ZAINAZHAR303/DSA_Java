@@ -13,6 +13,7 @@ public class RotateArray {
                     l--;
                 }
                 BubbleSort(nums,k,nums.length-1);
+        System.out.println("rotated array:");
         System.out.println(Arrays.toString(nums));
 
 
