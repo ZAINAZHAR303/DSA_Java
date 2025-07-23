@@ -10,6 +10,7 @@ public class Fabonacci {
         if (n==1 && n==0){
             return n;
         }
+        return FindFabonaci(n-1)+FindFabonaci(n-2);
 
 
 
