@@ -21,6 +21,6 @@ public class Palindrome9 {
         }
 
         // Compare the reversed string with the original number as a string
-        [preturn output.equals(Integer.toString(originalNumber));
-    }0
+        return output.equals(Integer.toString(originalNumber));
+    }
 }

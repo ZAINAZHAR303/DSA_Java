@@ -1,4 +1,4 @@
-package com.kunal;
+// package com.kunal;
 
 public class RichestCustomer {
     public int maximumWealth(int[][] accounts) {
